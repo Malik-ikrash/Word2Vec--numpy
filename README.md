@@ -36,8 +36,7 @@ Clone the repository in terminal and change to folder (two commands):
 ## Install dependencies:
     pip install -r requirements.txt
 
-## Run: 
-Type this into terminal to run program: 
+## Type/copy this into terminal for the program to run: 
     python Word2Vec.py
 
 ## Output should look something like:
