@@ -1,1 +1,1 @@
-import numpy as np
+numpy>=1.24.0
