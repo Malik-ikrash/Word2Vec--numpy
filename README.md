@@ -26,8 +26,8 @@ To make the training model faster, I limited the text to 100000 tokens
 
 Clone the repository in terminal:
 
-git clone https://github.com/Malik-ikrash/word2vec-from-scratch.git
-cd word2vec-from-scratch
+    git clone https://github.com/Malik-ikrash/word2vec-from-scratch.git
+    cd word2vec--numpy
 
 ## Create a virtual python environment:
     python3 -m venv venv
