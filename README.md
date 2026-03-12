@@ -17,7 +17,7 @@ A Word2Vec skip-gram model with negative sampling implemented from scratch in Py
 
 This project uses a small text from Shakespeare (Roughly 1 millioin words).  
 To make the training model faster, I limited the text to 100000 tokens. 
-if you wish to increase the number of tokens the program learns on then change this bit of the code on line 13:
+if you wish to increase the number of tokens the program learns on then change this bit of the code on line 13 in Word2vec.py file:
 
         tokens = tokens[:100000]
     
