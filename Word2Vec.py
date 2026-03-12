@@ -34,7 +34,7 @@ data = [word_to_idx[w] for w in tokens if w in word_to_idx]      #Turns the text
 #Negative sampling distribution
 freq = np.array([vocab_counts[w] for w in vocab])               #Creates negative samples to select
 neg_dist = freq ** 0.75                            #Multiply by 0.75 because it removes dominaice of extremely common words but still favours frequenct words
-neg_dist = neg_dist / neg_dist.sum()
+neg_dist = neg_dist / neg_dist.sum()                #Normalize to create a probabilty distributaion for negative sampling
 
 
 #Generate training pairs
