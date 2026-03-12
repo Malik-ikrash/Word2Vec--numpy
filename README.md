@@ -30,11 +30,11 @@ git clone https://github.com/Malik-ikrash/word2vec-from-scratch.git
 cd word2vec-from-scratch
 
 ## Create a virtual python environment:
-python3 -m venv venv
-source venv/bin/activate
+    python3 -m venv venv
+    source venv/bin/activate
 
 ## Install dependencies:
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Run: 
 Type this into terminal to run program: python Word2Vec.py
