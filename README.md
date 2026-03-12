@@ -38,7 +38,7 @@ Clone the repository in terminal and change to folder (two commands):
 
 ## Run: 
 Type this into terminal to run program: 
-        python Word2Vec.py
+    python Word2Vec.py
 
 
 ## Output should look something like:
