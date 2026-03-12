@@ -40,7 +40,6 @@ Clone the repository in terminal and change to folder (two commands):
 Type this into terminal to run program: 
     python Word2Vec.py
 
-
 ## Output should look something like:
 
     Vocabulary size: 2566
