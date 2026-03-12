@@ -21,8 +21,8 @@ if you wish to increase the number of tokens the program learns on then change t
 
         tokens = tokens[:100000]
     
-The number inside the close brackets and after the colon controls the number of words the program learns on
-change it to whether you like, though keep in mind that it doesn't excede the dataset.txt.
+The number inside the close brackets and after the colon controls the number of words the program learns on, so 
+change it to whatever you like, though keep in mind that it doesn't excede the dataset.txt.
 If you wish to use the whole txt file, then simply remove the above code all together and the program 
 will use the whole txt file.
 
