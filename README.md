@@ -17,7 +17,7 @@ A Word2Vec skip-gram model with negative sampling implemented from scratch in Py
 
 This project uses a small text from Shakespeare (Roughly 1 millioin words).  
 To make the training model faster, I limited the text to 100000 tokens. 
-if you wish to increase the number of tokens the program learns on then change this bit of the code on line 13 in Word2vec.py file:
+if you wish to increase the number of tokens the program learns on then change this bit of the code on line 13 in Word2Vec.py file:
 
         tokens = tokens[:100000]
     
@@ -56,7 +56,7 @@ Clone the repository in terminal and change to folder (two commands):
     Similar words to 'love': heart, mother, god, father
     Analogy test: king - man + woman ≈ liege
 
-  > Note: Similarity depends on how many tokens you use. The more tokens you use, the better the results will be.
+  > Note: The similarity depends on how many tokens you use. The more tokens you use, the better the results will be.
 
   
 
